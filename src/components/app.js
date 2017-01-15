@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 export default class App extends Component {
   render() {
     return (
-      <div>Start your code</div>
+      <div>Start code</div>
     );
   }
 }
+

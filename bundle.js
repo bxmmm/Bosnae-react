@@ -22645,7 +22645,7 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        'Start your code'
+	        'Start code'
 	      );
 	    }
 	  }]);
