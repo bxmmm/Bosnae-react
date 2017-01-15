@@ -1,7 +1,25 @@
 var express = require('express');
+var mongoose = require('mongoose');
+var Article = require('./models/article');
 
-// Create our app
 var app = express();
+
+// Database connect
+mongoose.connect(process.env.BAZA);
+
+// Route for GET API request to show data
+app.get('/api/articles', function(req, res){
+	Article.find({}, function(err, foundArticles){
+        if (err) {
+            console.log(err);
+     // render show template with them
+        } else {
+            res.json({articles: foundArticles.reverse()});
+        }
+    });
+});
+
+
 const PORT = process.env.PORT || 3000;
 
 app.use(function (req, res, next){
