@@ -47459,9 +47459,9 @@
 	var GET_ARTICLES = exports.GET_ARTICLES = 'GET_ARTICLES';
 
 	function getArticles() {
-		var URL = 'http://localhost:3000/api/articles';
+		var URL = 'http://mighty-island-93017.herokuapp.com/api/articles';
 		var articlesData = _axios2.default.get(URL);
-		console.log('od actiona', articlesData);
+		console.log('od actionaaa', articlesData);
 		return {
 			type: GET_ARTICLES,
 			payload: articlesData
