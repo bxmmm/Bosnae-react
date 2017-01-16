@@ -4,6 +4,9 @@ var Article = require('./models/article');
 
 var app = express();
 
+app.use('/', express.static(__dirname + '/'));
+
+
 // Database connect
 mongoose.connect(process.env.BAZA);
 
@@ -27,6 +30,7 @@ app.get('/api/articles', function(req, res, next){
 });
 
 
+
 const PORT = process.env.PORT || 3000;
 
 app.use(function (req, res, next){
@@ -37,7 +41,7 @@ app.use(function (req, res, next){
   }
 });
 
-app.use('/', express.static(__dirname + '/'));
+
 
 app.listen(PORT, function () {
   console.log('Express server is up on port ' + PORT);

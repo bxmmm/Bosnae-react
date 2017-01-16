@@ -28216,6 +28216,10 @@
 
 	var _header2 = _interopRequireDefault(_header);
 
+	var _footer = __webpack_require__(558);
+
+	var _footer2 = _interopRequireDefault(_footer);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -28242,9 +28246,14 @@
 	        _react2.default.createElement(_header2.default, null),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'container' },
-	          this.props.children
-	        )
+	          { className: 'glavnina' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'container' },
+	            this.props.children
+	          )
+	        ),
+	        _react2.default.createElement(_footer2.default, null)
 	      );
 	    }
 	  }]);
@@ -49775,6 +49784,149 @@
 	};
 
 	var _index = __webpack_require__(524);
+
+/***/ },
+/* 558 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Footer = function (_Component) {
+		_inherits(Footer, _Component);
+
+		function Footer() {
+			_classCallCheck(this, Footer);
+
+			return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
+		}
+
+		_createClass(Footer, [{
+			key: 'render',
+			value: function render() {
+				return _react2.default.createElement(
+					'div',
+					{ className: 'footer' },
+					_react2.default.createElement(
+						'div',
+						{ className: 'background' },
+						_react2.default.createElement(
+							'div',
+							{ className: 'row background' },
+							_react2.default.createElement(
+								'div',
+								{ className: 'col-md-4 col-xs-6' },
+								_react2.default.createElement(
+									'h4',
+									{ className: 'text-center' },
+									'Linkovi'
+								),
+								_react2.default.createElement(
+									'ul',
+									null,
+									_react2.default.createElement(
+										'li',
+										null,
+										_react2.default.createElement(
+											'a',
+											{ href: 'http://www.canudobjj.com/', target: '_blank' },
+											'Bjj Munchen'
+										)
+									),
+									_react2.default.createElement(
+										'li',
+										null,
+										_react2.default.createElement(
+											'a',
+											{ href: 'http://http://bjjmuenchen.com/', target: '_blank' },
+											'Canudo BJJ'
+										)
+									),
+									_react2.default.createElement(
+										'li',
+										null,
+										_react2.default.createElement(
+											'a',
+											{ href: 'http://workout.ba/', target: '_blank' },
+											'Workout'
+										)
+									)
+								)
+							),
+							_react2.default.createElement(
+								'div',
+								{ className: 'col-md-4 col-xs-6' },
+								_react2.default.createElement(
+									'h4',
+									{ className: 'text-center' },
+									'Sponzori'
+								),
+								_react2.default.createElement(
+									'ul',
+									null,
+									_react2.default.createElement(
+										'li',
+										null,
+										_react2.default.createElement(
+											'a',
+											{ href: 'http://www.hotelcentral.ba/', target: '_blank' },
+											'Hotel Central'
+										)
+									),
+									_react2.default.createElement(
+										'li',
+										null,
+										_react2.default.createElement(
+											'a',
+											{ href: 'http://www.coach.ba/', target: '_blank' },
+											'Auto\u0161kola Coach'
+										)
+									),
+									_react2.default.createElement(
+										'li',
+										null,
+										_react2.default.createElement(
+											'a',
+											{ href: 'http://www.kia.ba/', target: '_blank' },
+											'Kia Motors BIH'
+										)
+									)
+								)
+							),
+							_react2.default.createElement(
+								'div',
+								{ className: 'col-lg-4 col-md-4 hidden-sm hidden-xs text-center', id: 'slike' },
+								_react2.default.createElement('img', { id: 'logodno', src: '/img/logokrug.png' }),
+								_react2.default.createElement('img', { id: 'logodno2', src: '/img/logop4p.png' }),
+								_react2.default.createElement('img', { id: 'logo3', src: 'http://workout.ba/wp-content/uploads/2013/12/logo-1.png' })
+							)
+						)
+					)
+				);
+			}
+		}]);
+
+		return Footer;
+	}(_react.Component);
+
+	exports.default = Footer;
 
 /***/ }
 /******/ ]);
