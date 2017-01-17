@@ -49870,7 +49870,16 @@
 				return _react2.default.createElement(
 					'div',
 					null,
-					'Index komponent'
+					_react2.default.createElement(
+						'ul',
+						{ className: 'slideshow' },
+						_react2.default.createElement('li', null),
+						_react2.default.createElement('li', null),
+						_react2.default.createElement('li', null),
+						_react2.default.createElement('li', null),
+						_react2.default.createElement('li', null)
+					),
+					_react2.default.createElement('div', { id: 'crna' })
 				);
 			}
 		}]);
