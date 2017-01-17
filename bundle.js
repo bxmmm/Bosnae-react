@@ -75,35 +75,35 @@
 
 	var _app2 = _interopRequireDefault(_app);
 
-	var _articles = __webpack_require__(523);
+	var _articles = __webpack_require__(524);
 
 	var _articles2 = _interopRequireDefault(_articles);
 
-	var _location = __webpack_require__(550);
+	var _location = __webpack_require__(551);
 
 	var _location2 = _interopRequireDefault(_location);
 
-	var _schedule = __webpack_require__(551);
+	var _schedule = __webpack_require__(552);
 
 	var _schedule2 = _interopRequireDefault(_schedule);
 
-	var _instructors = __webpack_require__(552);
+	var _instructors = __webpack_require__(553);
 
 	var _instructors2 = _interopRequireDefault(_instructors);
 
-	var _gallery = __webpack_require__(553);
+	var _gallery = __webpack_require__(554);
 
 	var _gallery2 = _interopRequireDefault(_gallery);
 
-	var _contact = __webpack_require__(554);
+	var _contact = __webpack_require__(555);
 
 	var _contact2 = _interopRequireDefault(_contact);
 
-	var _index = __webpack_require__(555);
+	var _index = __webpack_require__(556);
 
 	var _index2 = _interopRequireDefault(_index);
 
-	var _reducers = __webpack_require__(556);
+	var _reducers = __webpack_require__(557);
 
 	var _reducers2 = _interopRequireDefault(_reducers);
 
@@ -28216,7 +28216,7 @@
 
 	var _header2 = _interopRequireDefault(_header);
 
-	var _footer = __webpack_require__(558);
+	var _footer = __webpack_require__(523);
 
 	var _footer2 = _interopRequireDefault(_footer);
 
@@ -47321,11 +47321,154 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Footer = function (_Component) {
+		_inherits(Footer, _Component);
+
+		function Footer() {
+			_classCallCheck(this, Footer);
+
+			return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
+		}
+
+		_createClass(Footer, [{
+			key: 'render',
+			value: function render() {
+				return _react2.default.createElement(
+					'div',
+					{ className: 'footer' },
+					_react2.default.createElement(
+						'div',
+						{ className: 'background' },
+						_react2.default.createElement(
+							'div',
+							{ className: 'row background' },
+							_react2.default.createElement(
+								'div',
+								{ className: 'col-md-4 col-xs-6' },
+								_react2.default.createElement(
+									'h4',
+									{ className: 'text-center' },
+									'Linkovi'
+								),
+								_react2.default.createElement(
+									'ul',
+									null,
+									_react2.default.createElement(
+										'li',
+										null,
+										_react2.default.createElement(
+											'a',
+											{ href: 'http://www.canudobjj.com/', target: '_blank' },
+											'Bjj Munchen'
+										)
+									),
+									_react2.default.createElement(
+										'li',
+										null,
+										_react2.default.createElement(
+											'a',
+											{ href: 'http://http://bjjmuenchen.com/', target: '_blank' },
+											'Canudo BJJ'
+										)
+									),
+									_react2.default.createElement(
+										'li',
+										null,
+										_react2.default.createElement(
+											'a',
+											{ href: 'http://workout.ba/', target: '_blank' },
+											'Workout'
+										)
+									)
+								)
+							),
+							_react2.default.createElement(
+								'div',
+								{ className: 'col-md-4 col-xs-6' },
+								_react2.default.createElement(
+									'h4',
+									{ className: 'text-center' },
+									'Sponzori'
+								),
+								_react2.default.createElement(
+									'ul',
+									null,
+									_react2.default.createElement(
+										'li',
+										null,
+										_react2.default.createElement(
+											'a',
+											{ href: 'http://www.hotelcentral.ba/', target: '_blank' },
+											'Hotel Central'
+										)
+									),
+									_react2.default.createElement(
+										'li',
+										null,
+										_react2.default.createElement(
+											'a',
+											{ href: 'http://www.coach.ba/', target: '_blank' },
+											'Auto\u0161kola Coach'
+										)
+									),
+									_react2.default.createElement(
+										'li',
+										null,
+										_react2.default.createElement(
+											'a',
+											{ href: 'http://www.kia.ba/', target: '_blank' },
+											'Kia Motors BIH'
+										)
+									)
+								)
+							),
+							_react2.default.createElement(
+								'div',
+								{ className: 'col-lg-4 col-md-4 hidden-sm hidden-xs text-center', id: 'slike' },
+								_react2.default.createElement('img', { id: 'logodno', src: '/img/logokrug.png' }),
+								_react2.default.createElement('img', { id: 'logodno2', src: '/img/logop4p.png' }),
+								_react2.default.createElement('img', { id: 'logo3', src: 'http://workout.ba/wp-content/uploads/2013/12/logo-1.png' })
+							)
+						)
+					)
+				);
+			}
+		}]);
+
+		return Footer;
+	}(_react.Component);
+
+	exports.default = Footer;
+
+/***/ },
+/* 524 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
 	var _reactRedux = __webpack_require__(160);
 
 	var _redux = __webpack_require__(167);
 
-	var _index = __webpack_require__(524);
+	var _index = __webpack_require__(525);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -47448,7 +47591,7 @@
 	exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(Articles);
 
 /***/ },
-/* 524 */
+/* 525 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -47459,7 +47602,7 @@
 	exports.GET_ARTICLES = undefined;
 	exports.getArticles = getArticles;
 
-	var _axios = __webpack_require__(525);
+	var _axios = __webpack_require__(526);
 
 	var _axios2 = _interopRequireDefault(_axios);
 
@@ -47468,7 +47611,7 @@
 	var GET_ARTICLES = exports.GET_ARTICLES = 'GET_ARTICLES';
 
 	function getArticles() {
-		var URL = 'http://mighty-island-93017.herokuapp.com/api/articles';
+		var URL = 'https://mighty-island-93017.herokuapp.com/api/articles';
 		var articlesData = _axios2.default.get(URL);
 		console.log('od actionaaa', articlesData);
 		return {
@@ -47478,21 +47621,21 @@
 	}
 
 /***/ },
-/* 525 */
+/* 526 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(526);
+	module.exports = __webpack_require__(527);
 
 /***/ },
-/* 526 */
+/* 527 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var utils = __webpack_require__(527);
-	var bind = __webpack_require__(528);
-	var Axios = __webpack_require__(529);
-	var defaults = __webpack_require__(530);
+	var utils = __webpack_require__(528);
+	var bind = __webpack_require__(529);
+	var Axios = __webpack_require__(530);
+	var defaults = __webpack_require__(531);
 
 	/**
 	 * Create an instance of Axios
@@ -47525,15 +47668,15 @@
 	};
 
 	// Expose Cancel & CancelToken
-	axios.Cancel = __webpack_require__(547);
-	axios.CancelToken = __webpack_require__(548);
-	axios.isCancel = __webpack_require__(544);
+	axios.Cancel = __webpack_require__(548);
+	axios.CancelToken = __webpack_require__(549);
+	axios.isCancel = __webpack_require__(545);
 
 	// Expose all/spread
 	axios.all = function all(promises) {
 	  return Promise.all(promises);
 	};
-	axios.spread = __webpack_require__(549);
+	axios.spread = __webpack_require__(550);
 
 	module.exports = axios;
 
@@ -47542,12 +47685,12 @@
 
 
 /***/ },
-/* 527 */
+/* 528 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var bind = __webpack_require__(528);
+	var bind = __webpack_require__(529);
 
 	/*global toString:true*/
 
@@ -47847,7 +47990,7 @@
 
 
 /***/ },
-/* 528 */
+/* 529 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -47864,17 +48007,17 @@
 
 
 /***/ },
-/* 529 */
+/* 530 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var defaults = __webpack_require__(530);
-	var utils = __webpack_require__(527);
-	var InterceptorManager = __webpack_require__(541);
-	var dispatchRequest = __webpack_require__(542);
-	var isAbsoluteURL = __webpack_require__(545);
-	var combineURLs = __webpack_require__(546);
+	var defaults = __webpack_require__(531);
+	var utils = __webpack_require__(528);
+	var InterceptorManager = __webpack_require__(542);
+	var dispatchRequest = __webpack_require__(543);
+	var isAbsoluteURL = __webpack_require__(546);
+	var combineURLs = __webpack_require__(547);
 
 	/**
 	 * Create a new instance of Axios
@@ -47955,13 +48098,13 @@
 
 
 /***/ },
-/* 530 */
+/* 531 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
 
-	var utils = __webpack_require__(527);
-	var normalizeHeaderName = __webpack_require__(531);
+	var utils = __webpack_require__(528);
+	var normalizeHeaderName = __webpack_require__(532);
 
 	var PROTECTION_PREFIX = /^\)\]\}',?\n/;
 	var DEFAULT_CONTENT_TYPE = {
@@ -47978,10 +48121,10 @@
 	  var adapter;
 	  if (typeof XMLHttpRequest !== 'undefined') {
 	    // For browsers use XHR adapter
-	    adapter = __webpack_require__(532);
+	    adapter = __webpack_require__(533);
 	  } else if (typeof process !== 'undefined') {
 	    // For node use HTTP adapter
-	    adapter = __webpack_require__(532);
+	    adapter = __webpack_require__(533);
 	  }
 	  return adapter;
 	}
@@ -48055,12 +48198,12 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ },
-/* 531 */
+/* 532 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var utils = __webpack_require__(527);
+	var utils = __webpack_require__(528);
 
 	module.exports = function normalizeHeaderName(headers, normalizedName) {
 	  utils.forEach(headers, function processHeader(value, name) {
@@ -48073,18 +48216,18 @@
 
 
 /***/ },
-/* 532 */
+/* 533 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
 
-	var utils = __webpack_require__(527);
-	var settle = __webpack_require__(533);
-	var buildURL = __webpack_require__(536);
-	var parseHeaders = __webpack_require__(537);
-	var isURLSameOrigin = __webpack_require__(538);
-	var createError = __webpack_require__(534);
-	var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(539);
+	var utils = __webpack_require__(528);
+	var settle = __webpack_require__(534);
+	var buildURL = __webpack_require__(537);
+	var parseHeaders = __webpack_require__(538);
+	var isURLSameOrigin = __webpack_require__(539);
+	var createError = __webpack_require__(535);
+	var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(540);
 
 	module.exports = function xhrAdapter(config) {
 	  return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -48180,7 +48323,7 @@
 	    // This is only done if running in a standard browser environment.
 	    // Specifically not if we're in a web worker, or react-native.
 	    if (utils.isStandardBrowserEnv()) {
-	      var cookies = __webpack_require__(540);
+	      var cookies = __webpack_require__(541);
 
 	      // Add xsrf header
 	      var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ?
@@ -48257,12 +48400,12 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ },
-/* 533 */
+/* 534 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var createError = __webpack_require__(534);
+	var createError = __webpack_require__(535);
 
 	/**
 	 * Resolve or reject a Promise based on response status.
@@ -48288,12 +48431,12 @@
 
 
 /***/ },
-/* 534 */
+/* 535 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var enhanceError = __webpack_require__(535);
+	var enhanceError = __webpack_require__(536);
 
 	/**
 	 * Create an Error with the specified message, config, error code, and response.
@@ -48311,7 +48454,7 @@
 
 
 /***/ },
-/* 535 */
+/* 536 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -48336,12 +48479,12 @@
 
 
 /***/ },
-/* 536 */
+/* 537 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var utils = __webpack_require__(527);
+	var utils = __webpack_require__(528);
 
 	function encode(val) {
 	  return encodeURIComponent(val).
@@ -48410,12 +48553,12 @@
 
 
 /***/ },
-/* 537 */
+/* 538 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var utils = __webpack_require__(527);
+	var utils = __webpack_require__(528);
 
 	/**
 	 * Parse headers into an object
@@ -48453,12 +48596,12 @@
 
 
 /***/ },
-/* 538 */
+/* 539 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var utils = __webpack_require__(527);
+	var utils = __webpack_require__(528);
 
 	module.exports = (
 	  utils.isStandardBrowserEnv() ?
@@ -48527,7 +48670,7 @@
 
 
 /***/ },
-/* 539 */
+/* 540 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -48569,12 +48712,12 @@
 
 
 /***/ },
-/* 540 */
+/* 541 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var utils = __webpack_require__(527);
+	var utils = __webpack_require__(528);
 
 	module.exports = (
 	  utils.isStandardBrowserEnv() ?
@@ -48628,12 +48771,12 @@
 
 
 /***/ },
-/* 541 */
+/* 542 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var utils = __webpack_require__(527);
+	var utils = __webpack_require__(528);
 
 	function InterceptorManager() {
 	  this.handlers = [];
@@ -48686,15 +48829,15 @@
 
 
 /***/ },
-/* 542 */
+/* 543 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var utils = __webpack_require__(527);
-	var transformData = __webpack_require__(543);
-	var isCancel = __webpack_require__(544);
-	var defaults = __webpack_require__(530);
+	var utils = __webpack_require__(528);
+	var transformData = __webpack_require__(544);
+	var isCancel = __webpack_require__(545);
+	var defaults = __webpack_require__(531);
 
 	/**
 	 * Throws a `Cancel` if cancellation has been requested.
@@ -48771,12 +48914,12 @@
 
 
 /***/ },
-/* 543 */
+/* 544 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var utils = __webpack_require__(527);
+	var utils = __webpack_require__(528);
 
 	/**
 	 * Transform the data for a request or a response
@@ -48797,7 +48940,7 @@
 
 
 /***/ },
-/* 544 */
+/* 545 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -48808,7 +48951,7 @@
 
 
 /***/ },
-/* 545 */
+/* 546 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -48828,7 +48971,7 @@
 
 
 /***/ },
-/* 546 */
+/* 547 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -48846,7 +48989,7 @@
 
 
 /***/ },
-/* 547 */
+/* 548 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -48871,12 +49014,12 @@
 
 
 /***/ },
-/* 548 */
+/* 549 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var Cancel = __webpack_require__(547);
+	var Cancel = __webpack_require__(548);
 
 	/**
 	 * A `CancelToken` is an object that can be used to request cancellation of an operation.
@@ -48934,7 +49077,7 @@
 
 
 /***/ },
-/* 549 */
+/* 550 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -48967,7 +49110,7 @@
 
 
 /***/ },
-/* 550 */
+/* 551 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -49016,7 +49159,7 @@
 	exports.default = Location;
 
 /***/ },
-/* 551 */
+/* 552 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -49406,7 +49549,7 @@
 	exports.default = Schedule;
 
 /***/ },
-/* 552 */
+/* 553 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -49486,7 +49629,7 @@
 	exports.default = Instructors;
 
 /***/ },
-/* 553 */
+/* 554 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -49535,7 +49678,7 @@
 	exports.default = Gallery;
 
 /***/ },
-/* 554 */
+/* 555 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -49689,7 +49832,7 @@
 	exports.default = Contact;
 
 /***/ },
-/* 555 */
+/* 556 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -49738,7 +49881,7 @@
 	exports.default = Index;
 
 /***/ },
-/* 556 */
+/* 557 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -49749,7 +49892,7 @@
 
 	var _redux = __webpack_require__(167);
 
-	var _articlesReducer = __webpack_require__(557);
+	var _articlesReducer = __webpack_require__(558);
 
 	var _articlesReducer2 = _interopRequireDefault(_articlesReducer);
 
@@ -49762,7 +49905,7 @@
 	exports.default = rootReducer;
 
 /***/ },
-/* 557 */
+/* 558 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -49783,150 +49926,7 @@
 		return state;
 	};
 
-	var _index = __webpack_require__(524);
-
-/***/ },
-/* 558 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-		value: true
-	});
-
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	var _react = __webpack_require__(2);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	var Footer = function (_Component) {
-		_inherits(Footer, _Component);
-
-		function Footer() {
-			_classCallCheck(this, Footer);
-
-			return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
-		}
-
-		_createClass(Footer, [{
-			key: 'render',
-			value: function render() {
-				return _react2.default.createElement(
-					'div',
-					{ className: 'footer' },
-					_react2.default.createElement(
-						'div',
-						{ className: 'background' },
-						_react2.default.createElement(
-							'div',
-							{ className: 'row background' },
-							_react2.default.createElement(
-								'div',
-								{ className: 'col-md-4 col-xs-6' },
-								_react2.default.createElement(
-									'h4',
-									{ className: 'text-center' },
-									'Linkovi'
-								),
-								_react2.default.createElement(
-									'ul',
-									null,
-									_react2.default.createElement(
-										'li',
-										null,
-										_react2.default.createElement(
-											'a',
-											{ href: 'http://www.canudobjj.com/', target: '_blank' },
-											'Bjj Munchen'
-										)
-									),
-									_react2.default.createElement(
-										'li',
-										null,
-										_react2.default.createElement(
-											'a',
-											{ href: 'http://http://bjjmuenchen.com/', target: '_blank' },
-											'Canudo BJJ'
-										)
-									),
-									_react2.default.createElement(
-										'li',
-										null,
-										_react2.default.createElement(
-											'a',
-											{ href: 'http://workout.ba/', target: '_blank' },
-											'Workout'
-										)
-									)
-								)
-							),
-							_react2.default.createElement(
-								'div',
-								{ className: 'col-md-4 col-xs-6' },
-								_react2.default.createElement(
-									'h4',
-									{ className: 'text-center' },
-									'Sponzori'
-								),
-								_react2.default.createElement(
-									'ul',
-									null,
-									_react2.default.createElement(
-										'li',
-										null,
-										_react2.default.createElement(
-											'a',
-											{ href: 'http://www.hotelcentral.ba/', target: '_blank' },
-											'Hotel Central'
-										)
-									),
-									_react2.default.createElement(
-										'li',
-										null,
-										_react2.default.createElement(
-											'a',
-											{ href: 'http://www.coach.ba/', target: '_blank' },
-											'Auto\u0161kola Coach'
-										)
-									),
-									_react2.default.createElement(
-										'li',
-										null,
-										_react2.default.createElement(
-											'a',
-											{ href: 'http://www.kia.ba/', target: '_blank' },
-											'Kia Motors BIH'
-										)
-									)
-								)
-							),
-							_react2.default.createElement(
-								'div',
-								{ className: 'col-lg-4 col-md-4 hidden-sm hidden-xs text-center', id: 'slike' },
-								_react2.default.createElement('img', { id: 'logodno', src: '/img/logokrug.png' }),
-								_react2.default.createElement('img', { id: 'logodno2', src: '/img/logop4p.png' }),
-								_react2.default.createElement('img', { id: 'logo3', src: 'http://workout.ba/wp-content/uploads/2013/12/logo-1.png' })
-							)
-						)
-					)
-				);
-			}
-		}]);
-
-		return Footer;
-	}(_react.Component);
-
-	exports.default = Footer;
+	var _index = __webpack_require__(525);
 
 /***/ }
 /******/ ]);
