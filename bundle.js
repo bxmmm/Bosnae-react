@@ -49726,7 +49726,11 @@
 			key: 'render',
 			value: function render() {
 				if (!this.props.images) {
-					return _react2.default.createElement('div', null);
+					return _react2.default.createElement(
+						'div',
+						null,
+						'-'
+					);
 				}
 				return _react2.default.createElement(
 					'div',

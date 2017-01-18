@@ -37,7 +37,7 @@ class Galerija extends Component {
 	render() {
 		if ( ! this.props.images) {
 			return (
-				<div></div>
+				<div>-</div>
 			)
 		} 
 		return (

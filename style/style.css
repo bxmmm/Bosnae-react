@@ -119,10 +119,6 @@ a:hover,
 }
 
 
-
-
-/*Landing css*/
-
 /*LANDING PAGE CSS--------------------------------------------------------------*/
 #crna {
     height: 100%; 
@@ -202,25 +198,10 @@ a:hover,
 /*==============================================================================*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 991px) {
 	/*select for h4 tag when small display*/
   .col-md-4.col-xs-6 .text-center {
   	margin-left: 27%;
   }
 }
+
