@@ -2,7 +2,7 @@ var express = require('express');
 var mongoose = require('mongoose');
 var Article = require('./models/article');
 var Link = require('./models/link');
-var BAZA = require('./baza');
+// var BAZA = require('./baza');
 
 var app = express();
 
