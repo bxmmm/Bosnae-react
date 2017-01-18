@@ -4,11 +4,11 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { getImages, resetImages } from '../actions/index';
 
-const IMAGES =
-[{
-  src: "https://scontent.fbeg1-1.fna.fbcdn.net/v/t1.0-9/15241749_10205463103776375_7641853656527436579_n.jpg?oh=0d90db978c9ebc20ba5a628cc4ea070b&oe=58BCB646",
-  thumbnail: "https://scontent.fbeg1-1.fna.fbcdn.net/v/t1.0-9/15241749_10205463103776375_7641853656527436579_n.jpg?oh=0d90db978c9ebc20ba5a628cc4ea070b&oe=58BCB646",
-}]
+// const IMAGES =
+// [{
+//   src: "https://scontent.fbeg1-1.fna.fbcdn.net/v/t1.0-9/15241749_10205463103776375_7641853656527436579_n.jpg?oh=0d90db978c9ebc20ba5a628cc4ea070b&oe=58BCB646",
+//   thumbnail: "https://scontent.fbeg1-1.fna.fbcdn.net/v/t1.0-9/15241749_10205463103776375_7641853656527436579_n.jpg?oh=0d90db978c9ebc20ba5a628cc4ea070b&oe=58BCB646",
+// }]
 
 var BENJO = []
 

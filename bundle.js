@@ -49683,10 +49683,11 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var IMAGES = [{
-		src: "https://scontent.fbeg1-1.fna.fbcdn.net/v/t1.0-9/15241749_10205463103776375_7641853656527436579_n.jpg?oh=0d90db978c9ebc20ba5a628cc4ea070b&oe=58BCB646",
-		thumbnail: "https://scontent.fbeg1-1.fna.fbcdn.net/v/t1.0-9/15241749_10205463103776375_7641853656527436579_n.jpg?oh=0d90db978c9ebc20ba5a628cc4ea070b&oe=58BCB646"
-	}];
+	// const IMAGES =
+	// [{
+	//   src: "https://scontent.fbeg1-1.fna.fbcdn.net/v/t1.0-9/15241749_10205463103776375_7641853656527436579_n.jpg?oh=0d90db978c9ebc20ba5a628cc4ea070b&oe=58BCB646",
+	//   thumbnail: "https://scontent.fbeg1-1.fna.fbcdn.net/v/t1.0-9/15241749_10205463103776375_7641853656527436579_n.jpg?oh=0d90db978c9ebc20ba5a628cc4ea070b&oe=58BCB646",
+	// }]
 
 	var BENJO = [];
 
