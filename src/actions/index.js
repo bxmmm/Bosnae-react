@@ -15,7 +15,7 @@ export function getArticles() {
 export const GET_IMAGES = 'GET_IMAGES';
 
 export function getImages() {
-	const URL = 'http://localhost:3000/api/images';
+	const URL = 'https://mighty-island-93017.herokuapp.com/api/images';
 	const links = axios.get(URL);
 	return {
 		type: GET_IMAGES,

@@ -47625,7 +47625,7 @@
 	var GET_IMAGES = exports.GET_IMAGES = 'GET_IMAGES';
 
 	function getImages() {
-		var URL = 'http://localhost:3000/api/images';
+		var URL = 'https://mighty-island-93017.herokuapp.com/api/images';
 		var links = _axios2.default.get(URL);
 		return {
 			type: GET_IMAGES,
