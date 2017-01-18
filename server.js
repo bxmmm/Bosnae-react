@@ -1,6 +1,8 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var Article = require('./models/article');
+var Link = require('./models/link');
+var BAZA = require('./baza');
 
 var app = express();
 
@@ -8,7 +10,7 @@ app.use('/', express.static(__dirname + '/'));
 
 
 // Database connect
-mongoose.connect(process.env.BAZA);
+mongoose.connect(process.env.BAZA || BAZA);
 
 
 app.use(function(req, res, next) {
@@ -28,7 +30,16 @@ app.get('/api/articles', function(req, res, next){
         }
     });
 });
-
+app.get('/api/images', function(req, res, next){
+  Link.find({}, function(err, foundImages){
+        if (err) {
+            console.log(err);
+     // render show template with them
+        } else {
+            res.json({images: foundImages.reverse()});
+        }
+    });
+});
 
 
 const PORT = process.env.PORT || 3000;

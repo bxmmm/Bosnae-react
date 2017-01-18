@@ -11,7 +11,7 @@ import Articles from './components/articles';
 import Location from './components/location';
 import Schedule from './components/schedule';
 import Instructors from './components/instructors';
-import Gallery from './components/gallery';
+import Galerija from './components/gallery';
 import Contact from './components/contact';
 import Index from './components/index';
 
@@ -31,7 +31,7 @@ ReactDOM.render(
 				<Route path='location' component={Location}/>
 				<Route path='schedule' component={Schedule}/>
 				<Route path='instructors' component={Instructors}/>
-				<Route path='gallery' component={Gallery}/>
+				<Route path='gallery' component={Galerija}/>
 				<Route path='contact' component={Contact}/>
 			</Route>
   	</Router>
