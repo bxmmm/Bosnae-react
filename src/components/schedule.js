@@ -7,7 +7,7 @@ export default class Schedule extends Component {
 				<div className='row'>
 				<div className="col-md-12 text-center">
 					<h2 className='text-center'>Raspored za Sarajevo</h2>
-					<table width="80%" align="center" >
+					<table align="center" >
 						<thead>
 				    	<tr>
 				        <th className='dani'>Ponedjeljak</th>
@@ -27,32 +27,23 @@ export default class Schedule extends Component {
 						      <td className="donja">17:15</td>
 						      <td className="donja">20:15</td>
 						      <td className="donja">17:15</td>
-						      <td className="donja"></td>
+						      <td className="donja">Rest</td>
 					    	</tr>
 					      <tr>
-						      <td className="ukini">BJJ GI</td>
-						      <td className="ukini">BJJ GI</td>
-						      <td className="ukini">BJJ NoGi</td>
-						      <td className="ukini">BJJ GI</td>
-						      <td className="ukini">BJJ GI</td>
-						      <td className="ukini">BJJ NoGI</td>
-						      <td className="ukini">Rest</td>
+						      <td className="ukini">GI</td>
+						      <td className="ukini">GI</td>
+						      <td className="ukini">NoGi</td>
+						      <td className="ukini">GI</td>
+						      <td className="ukini">GI</td>
+						      <td className="ukini">NoGI</td>
+						      <td className="ukini"></td>
 					   		</tr>
-					      <tr>
-						      <td className="gornja">Do 19:00</td>
-						      <td className="gornja">Do 19:00</td>
-						      <td className="gornja">Do 19:00</td>
-						      <td className="gornja">Do 19:00</td>
-						      <td className="gornja">Do 22:00</td>
-						      <td className="gornja">Do 19:00</td>
-						      <td className="gornja"></td>
-						    </tr>    
 					    </tbody>
 				  </table>
 				</div>
 				<div className="col-md-12 text-center">
 					<h2 className='text-center'>Raspored za Tuzlu</h2>
-					<table width="80%" align="center" >
+					<table align="center" >
 						<thead>
 				    	<tr>
 				        <th className='dani'>Ponedjeljak</th>
@@ -72,26 +63,17 @@ export default class Schedule extends Component {
 					      <td className="donja">17:15</td>
 					      <td className="donja">20:15</td>
 					      <td className="donja">17:15</td>
-					      <td className="donja"></td>
+					      <td className="donja">Rest</td>
 				    	</tr>
 				      <tr>
-					      <td className="ukini">BJJ GI</td>
-					      <td className="ukini">BJJ GI</td>
-					      <td className="ukini">BJJ NoGi</td>
-					      <td className="ukini">BJJ GI</td>
-					      <td className="ukini">BJJ GI</td>
-					      <td className="ukini">BJJ NoGI</td>
-					      <td className="ukini">Rest</td>
-				   		</tr>
-				      <tr>
-					      <td className="gornja">Do 19:00</td>
-					      <td className="gornja">Do 19:00</td>
-					      <td className="gornja">Do 19:00</td>
-					      <td className="gornja">Do 19:00</td>
-					      <td className="gornja">Do 22:00</td>
-					      <td className="gornja">Do 19:00</td>
-					      <td className="gornja"></td>
-					    </tr>   
+					      <td className="ukini">GI</td>
+					      <td className="ukini">GI</td>
+					      <td className="ukini">NoGi</td>
+					      <td className="ukini">GI</td>
+					      <td className="ukini">GI</td>
+					      <td className="ukini">NoGI</td>
+					      <td className="ukini"></td>
+				   		</tr>  
 					   </tbody> 
 				  </table>
 				</div>

@@ -26,7 +26,6 @@ class Galerija extends Component {
 	makeList (link) {
 		var oneImage = {src: link.url, thumbnail: link.url}
 		IMAGES.push(oneImage)
-		console.log('davdim', IMAGES)
 	}
 	componentWillUnmount(){
 		// dispatch action to reset state of images to []
@@ -52,7 +51,6 @@ function mapDispatchToProps(dispatch) {
 	return bindActionCreators({getImages, resetImages}, dispatch);
 }
 function mapStateToProps(state) {
-	console.log('mapstat', state)
 	return {images : state.images}
 }
 
