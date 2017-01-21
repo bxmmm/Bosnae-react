@@ -6,8 +6,12 @@ var Link = require('./models/link');
 
 var app = express();
 
+
+
 app.use('/', express.static(__dirname + '/'));
 
+// set the view engine to ejs
+app.set('view engine', 'ejs');
 
 // Database connect
 mongoose.connect(process.env.BAZA || BAZA);
@@ -39,6 +43,11 @@ app.get('/api/images', function(req, res, next){
             res.json({images: foundImages.reverse()});
         }
     });
+});
+
+
+app.get('*', function (req, res){
+  res.render('../index');
 });
 
 

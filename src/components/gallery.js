@@ -10,7 +10,7 @@ import { getImages, resetImages } from '../actions/index';
 //   thumbnail: "https://scontent.fbeg1-1.fna.fbcdn.net/v/t1.0-9/15241749_10205463103776375_7641853656527436579_n.jpg?oh=0d90db978c9ebc20ba5a628cc4ea070b&oe=58BCB646",
 // }]
 
-var BENJO = []
+var IMAGES = []
 
 class Galerija extends Component {
 	constructor(props) {
@@ -24,26 +24,25 @@ class Galerija extends Component {
 		
 	}
 	makeList (link) {
-		var kemo = {src: link.url, thumbnail: link.url}
-		BENJO.push(kemo)
-		console.log('davdim', BENJO)
+		var oneImage = {src: link.url, thumbnail: link.url}
+		IMAGES.push(oneImage)
+		console.log('davdim', IMAGES)
 	}
 	componentWillUnmount(){
 		// dispatch action to reset state of images to []
 		this.props.resetImages();
-		BENJO = [];
-		console.log('unmount', BENJO);
+		IMAGES = [];
 	}
 	render() {
 		if ( ! this.props.images) {
 			return (
-				<div>-</div>
+				<div></div>
 			)
 		} 
 		return (
 			<div>
 				{this.props.images.images.map(this.makeList)}
-				<Gallery images={BENJO} rowHeight={110} margin={10} enableImageSelection={false} />
+				<Gallery images={IMAGES} rowHeight={100} margin={5} enableImageSelection={false} />
 			</div>
 		);
 	}

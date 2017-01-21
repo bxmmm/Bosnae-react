@@ -49689,7 +49689,7 @@
 	//   thumbnail: "https://scontent.fbeg1-1.fna.fbcdn.net/v/t1.0-9/15241749_10205463103776375_7641853656527436579_n.jpg?oh=0d90db978c9ebc20ba5a628cc4ea070b&oe=58BCB646",
 	// }]
 
-	var BENJO = [];
+	var IMAGES = [];
 
 	var Galerija = function (_Component) {
 		_inherits(Galerija, _Component);
@@ -49710,33 +49710,28 @@
 		_createClass(Galerija, [{
 			key: 'makeList',
 			value: function makeList(link) {
-				var kemo = { src: link.url, thumbnail: link.url };
-				BENJO.push(kemo);
-				console.log('davdim', BENJO);
+				var oneImage = { src: link.url, thumbnail: link.url };
+				IMAGES.push(oneImage);
+				console.log('davdim', IMAGES);
 			}
 		}, {
 			key: 'componentWillUnmount',
 			value: function componentWillUnmount() {
 				// dispatch action to reset state of images to []
 				this.props.resetImages();
-				BENJO = [];
-				console.log('unmount', BENJO);
+				IMAGES = [];
 			}
 		}, {
 			key: 'render',
 			value: function render() {
 				if (!this.props.images) {
-					return _react2.default.createElement(
-						'div',
-						null,
-						'-'
-					);
+					return _react2.default.createElement('div', null);
 				}
 				return _react2.default.createElement(
 					'div',
 					null,
 					this.props.images.images.map(this.makeList),
-					_react2.default.createElement(_reactGridGallery2.default, { images: BENJO, rowHeight: 110, margin: 10, enableImageSelection: false })
+					_react2.default.createElement(_reactGridGallery2.default, { images: IMAGES, rowHeight: 100, margin: 5, enableImageSelection: false })
 				);
 			}
 		}]);
